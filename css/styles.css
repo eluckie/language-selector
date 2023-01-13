@@ -25,6 +25,8 @@ h1.page-title {
   padding:14px;
   border:2px dashed black;
   background-color:white;
+  display:block;
+  margin:auto;
 }
 
 #intro {
@@ -38,9 +40,9 @@ h1.page-title {
 
 #user-form {
   padding:10px;
-  background-color:rgb(120, 175, 120);
   display:block;
   margin:auto;
+  background-color:rgb(120, 175, 120);
 }
 
 #button {
@@ -79,4 +81,8 @@ h1.page-title {
   color:black;
   font-family:'Courier New', Courier, monospace;
   color:rgb(120, 175, 120);
+}
+
+#ruby {
+  text-align:center;
 }
