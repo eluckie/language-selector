@@ -1,8 +1,44 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 .hidden {
   display:none;
+}
+
+.recommend {
+  background-color:rgb(120, 175, 120);
+  font-weight:800;
+}
+
+h1.page-title {
+  background-color:rgb(120, 175, 120);
+  text-align:center;
+}
+
+#recommend-lang {
+  float:right;
+  width:40%;
+}
+
+#intro {
+  text-align:center;
 }
 
 #error-message {
   font-weight:700;
   color:red;
+}
+
+#user-form {
+  padding:10px;
+  background-color:rgb(120, 175, 120);
+  display:block;
+  margin:auto;
+}
+
+#button {
+  background-color:green;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
 }

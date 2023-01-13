@@ -21,7 +21,7 @@ This is a simple webpage with a form acting as a quiz. Visitors are able to read
 | gorilla or kangaroo | (and) first or second | JavaScript |
 | "Are you joking" | (and) fifth | none |
 | snakes | (or) third | Python |
-| crocodile | (or) fourth | C# |
+| grizzly | (or) fourth | C# |
 
 Otherwise, they will be recommended to learn Ruby.
 

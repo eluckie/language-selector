@@ -12,7 +12,7 @@ function hideResultsAndError() {
 // }
 
 window.addEventListener("load", function() {
-  let form = document.getElementById("userForm");
+  let form = document.getElementById("user-form");
   form.onsubmit = function(event) {
     event.preventDefault();
     hideResultsAndError();
