@@ -10,5 +10,12 @@ window.onload = function() {
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
+
   }
 }
+
+// animals 5 && family 5 || mermaids - none
+// animals 1-2 && family 1-2 || centaurs - java
+// animals 3 || family 3 || yeti - python
+// animals 4 || family 4 || nessie - c#
+// (else) - ruby
