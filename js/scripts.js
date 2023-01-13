@@ -6,16 +6,17 @@ function hideResultsAndError() {
   document.getElementById("none").setAttribute("class", "hidden");
   document.getElementById("error-message").setAttribute("class", "hidden");
 }
-
-function addressUser() {
-  document.getElementById("name").innerText = nameToAddress;
-}
+// function addressUser() {
+//  let userName = document.getElementById("user-name").value;
+//  document.getElementById("name").innerHTML = userName;
+// }
 
 window.addEventListener("load", function() {
   let form = document.getElementById("userForm");
   form.onsubmit = function(event) {
     event.preventDefault();
     hideResultsAndError();
+//    addressUser();
 
     const animal = parseInt(document.getElementById("animals").value);
     const fam = parseInt(document.getElementById("family").value);
@@ -24,7 +25,6 @@ window.addEventListener("load", function() {
 
       if (userName && bday && animal <= 2 && fam <= 2) {
         document.getElementById("javascript").removeAttribute("class");
-        addressUser();
       } else if (userName && bday && animal === 5 && fam === 5) {
         document.getElementById("none").removeAttribute("class");
       } else if (userName && bday && animal === 3 || fam === 3) {
