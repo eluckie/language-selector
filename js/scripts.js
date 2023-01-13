@@ -6,18 +6,12 @@ function hideResultsAndError() {
   document.getElementById("none").setAttribute("class", "hidden");
   document.getElementById("error-message").setAttribute("class", "hidden");
 }
-// function addressUser() {
-//  let userName = document.getElementById("user-name").value;
-//  document.getElementById("name").innerHTML = userName;
-// }
 
 window.addEventListener("load", function() {
   let form = document.getElementById("user-form");
   form.onsubmit = function(event) {
     event.preventDefault();
     hideResultsAndError();
-//    addressUser();
-
     const animal = parseInt(document.getElementById("animals").value);
     const fam = parseInt(document.getElementById("family").value);
     const userName = document.getElementById("user-name").value;
