@@ -132,3 +132,13 @@ h1.page-title {
 #none img{
   width:40%;
 }
+
+@media screen and (max-width:954px) {
+  #recommend-lang {
+    float:left;
+  }
+
+  #user-form {
+    clear:both;
+  }
+}
