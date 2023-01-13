@@ -6,16 +6,34 @@ function hideResults() {
   document.getElementById("none").setAttribute("class", "hidden");
 }
 
-window.onload = function() {
-  document.querySelector("form").onsubmit = function(event) {
+window.addEventListener("load", showLanguage) {
+
+  let form = document.getElementById("userform");
+  form.addEventListener("submit", showLanguage);
+}
+  
+  function showLanguage(event) {
     event.preventDefault();
     hideResults();
+    const animal = parseInt(document.getElementById("animals").value);
+    const fam = parseInt(document.getElementById("family").value);
 
-  }
-}
+      if (animal <= 2 && fam <= 2) {
+        document.getElementById("javascript").removeAttribute("class");
+      } else if (animal === 5 && fam === 5) {
+        document.getElementById("none").removeAttribute("class");
+      } else if (animal === 3 || fam === 3) {
+        document.getElementById("python").removeAttribute("class");
+      } else if (animal === 4 || family === 4) {
+        document.getElementsById("csharp").removeAttribute("class");
+      } else {
+        document.getElementById("ruby").removeAttribute("class");
+    };
+  };
 
-// animals 5 && family 5 || mermaids - none
-// animals 1-2 && family 1-2 || centaurs - java
-// animals 3 || family 3 || yeti - python
-// animals 4 || family 4 || nessie - c#
+
+// animals 1-2 && family 1-2- java
+// animals 5 && family 5 - none
+// animals 3 || family 3 - python
+// animals 4 || family 4 - c#
 // (else) - ruby
