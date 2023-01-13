@@ -16,17 +16,17 @@ window.addEventListener("load", function() {
     const animal = parseInt(document.getElementById("animals").value);
     const fam = parseInt(document.getElementById("family").value);
     const name = document.getElementById("user-name").value;
-    const bday = document.getElementById("birthday");
+    const bday = document.getElementById("birthday").value;
 
-      if (name && animal <= 2 && fam <= 2) {
+      if (name && bday && animal <= 2 && fam <= 2) {
         document.getElementById("javascript").removeAttribute("class");
-      } else if (name && animal === 5 && fam === 5) {
+      } else if (name && bday && animal === 5 && fam === 5) {
         document.getElementById("none").removeAttribute("class");
-      } else if (name && animal === 3 || fam === 3) {
+      } else if (name && bday && animal === 3 || fam === 3) {
         document.getElementById("python").removeAttribute("class");
-      } else if (name && animal === 4 || family === 4) {
+      } else if (name && bday && animal === 4 || family === 4) {
         document.getElementById("csharp").removeAttribute("class");
-      } else if (name) {
+      } else if (name && bday) {
         document.getElementById("ruby").removeAttribute("class");
       } else {
         document.getElementById("error-message").removeAttribute("class");
