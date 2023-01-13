@@ -19,9 +19,10 @@ This is a simple webpage with a form acting as a quiz. Visitors are able to read
 | If user selects... | this option for question 5 ... | Their recommended language will be |
 | :----------------- | :--------------------------------- | :--------------------------------: |
 | gorilla or kangaroo | (and) first or second | JavaScript |
+| "Are you joking" | (and) fifth | none |
 | snakes | (or) third | Python |
 | crocodile | (or) fourth | C# |
-| "Are you joking" | (and) fifth | none |
+
 Otherwise, they will be recommended to learn Ruby.
 
 ## Setup/Installation Requirements
