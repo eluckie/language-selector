@@ -6,15 +6,12 @@ function hideResults() {
   document.getElementById("none").setAttribute("class", "hidden");
 }
 
-window.addEventListener("load", showLanguage) {
-
-  let form = document.getElementById("userform");
-  form.addEventListener("submit", showLanguage);
-}
-  
-  function showLanguage(event) {
+window.addEventListener("load", function() {
+  let form = document.getElementById("userForm");
+  form.onsubmit = function(event) {
     event.preventDefault();
     hideResults();
+
     const animal = parseInt(document.getElementById("animals").value);
     const fam = parseInt(document.getElementById("family").value);
 
@@ -25,13 +22,14 @@ window.addEventListener("load", showLanguage) {
       } else if (animal === 3 || fam === 3) {
         document.getElementById("python").removeAttribute("class");
       } else if (animal === 4 || family === 4) {
-        document.getElementsById("csharp").removeAttribute("class");
+        document.getElementById("csharp").removeAttribute("class");
       } else {
         document.getElementById("ruby").removeAttribute("class");
     };
   };
+})
 
-
+  
 // animals 1-2 && family 1-2- java
 // animals 5 && family 5 - none
 // animals 3 || family 3 - python
