@@ -16,7 +16,7 @@
 
 This is a simple webpage with a form acting as a quiz. Visitors are able to read a short introduction to the 4 languages they may be suggested. If a visitor would like to take the quiz and get a recommendation, they are required to enter their name and birthday in the form and answer a short series of 4 silly questions. Their answers are used to determine which coding language they should learn. If the visitor fails to enter either a name or a birthday, this will prompt an error message reminding them to fill out the form completely. This page is intended to be a fun quiz rather than a serious recommendation.
 
-| If user selects... | this option for question 5 ... | Their recommended language will be |
+| If user selects... | This option for question 5 | Their recommended language is |
 | :----------------- | :--------------------------------- | :--------------------------------: |
 | gorilla or kangaroo | (and) first or second | JavaScript |
 | "Are you joking" | (and) fifth | none |
