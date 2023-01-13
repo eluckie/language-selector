@@ -9,11 +9,45 @@
   <h2>So you want to code?</h2>
   <p>There are many different programming languages out there to choose from and it may be overwhelming trying to decide where to start. Please fill in the form completely to see which language we recommend you learn based on your personality. Some languages we may recommend include:</p>
   <ul>
-    <li>Ruby</li>
-    <li>C#</li>
-    <li>JavaScript</li>
-    <li>Python</li>
+    <li>Ruby - mainly used to build web applications</li>
+    <li>C# - general-purpose used to create many different programs such as websites, games, mobile and desktop apps, etc.</li>
+    <li>JavaScript - (most commonly used programming language worldwide) used to build complex interactive websites and games.</li>
+    <li>Python - commonly used for task automation, data analysis, and visualization.</li>
   </ul>
 
+  <form>
+    <label for="userName">Your name:</label>
+    <input id="userName" type="text"><br>
+    <label for="birthday">Your birthday:</label>
+    <input id="birthday" type="date"><br><br>
+    <label for="color">If you could make the sky be any color, what would it be?</label>
+    <input id="color" type="color"><br>
+    <p>Which one of these animals could you win a fight with?</p>
+    <select id="animals">
+      <option value="1">Gorilla</option>
+      <option value="2">15 Snakes</option>
+      <option value="3">Kangaroo</option>
+      <option value="4">Are you joking?</option>
+    </select>
+    <p>Do you know all your immediate family members' birthdays?</p>
+    <select id="family">
+      <option value="1">Yes indeed! We even celebrate the pets.</option>
+      <option value="2">I know all the humans' birthdays.</option>
+      <option value="3">I only know my favorites' birthdays.</option>
+      <option value="4">I mean... I know my own birthday, at least.</option>
+    </select>
+    <p>One of these is most definitely real.</p>
+    <input type="radio" name="mythicalCreature" value="sasquatch" id="bigfoot" checked>
+    <label for="bigfoot">Sasquatch</label><br>
+    <input type="radio" name="mythicalCreature" value="nessie" id="lochNess">
+    <label for="lochNess">Lochness Monster</label><br>
+    <input type="radio" name="mythicalCreature" value="yeti" id="yetis">
+    <label for="yetis">Yeti</label><br>
+    <input type="radio" name="mythicalCreature" value="mermaid" id="mermaids">
+    <label for="mermaids">Mermaids</label><br>
+    <input type="radio" name="mythicalCreature" value="centaur" id="centaurs">
+    <label for="centaurs">Centaurs</label><br><br>
+    <button type="submit">Tell me my language!</button>
+  </form>
 </body>
 </html>
