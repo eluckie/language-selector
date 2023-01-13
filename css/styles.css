@@ -85,4 +85,50 @@ h1.page-title {
 
 #ruby {
   text-align:center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#ruby img{
+  width:40%;
+}
+
+#csharp {
+  text-align:center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#csharp img{
+  width:40%;
+}
+
+#javascript {
+  text-align:center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#javascript img{
+  width:40%;
+}
+
+#python {
+  text-align:center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#python img{
+  width:40%;
+}
+
+#none {
+  text-align:center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#none p{
+  text-align:center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#none img{
+  width:40%;
 }
