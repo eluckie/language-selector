@@ -16,13 +16,19 @@
 
 This is a simple webpage with a form acting as a quiz. Visitors are able to read a short introduction to the 4 languages they may be suggested. If a visitor would like to take the quiz and get a recommendation, they are required to enter their name and birthday in the form and answer a short series of 4 silly questions. Their answers are used to determine which coding language they should learn. If the visitor fails to enter either a name or a birthday, this will prompt an error message reminding them to fill out the form completely. This page is intended to be a fun quiz rather than a serious recommendation.
 
+| If user selects... | this option for question 5 ... | Their recommended language will be |
+| :----------------- | :--------------------------------- | :--------------------------------: |
+| gorilla or kangaroo | (and) first or second | JavaScript |
+| snakes | (or) third | Python |
+| crocodile | (or) fourth | C# |
+| "Are you joking" | (and) fifth | none |
+Otherwise, they will be recommended to learn Ruby.
+
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop
 * Navigate to the top level of this directory
 * Open language-selector/index.html in your web browser
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 * No known bugs.
