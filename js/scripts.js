@@ -7,6 +7,10 @@ function hideResultsAndError() {
   document.getElementById("error-message").setAttribute("class", "hidden");
 }
 
+function addressUser() {
+  document.getElementById("name").innerText = nameToAddress;
+}
+
 window.addEventListener("load", function() {
   let form = document.getElementById("userForm");
   form.onsubmit = function(event) {
@@ -15,18 +19,19 @@ window.addEventListener("load", function() {
 
     const animal = parseInt(document.getElementById("animals").value);
     const fam = parseInt(document.getElementById("family").value);
-    const name = document.getElementById("user-name").value;
+    const userName = document.getElementById("user-name").value;
     const bday = document.getElementById("birthday").value;
 
-      if (name && bday && animal <= 2 && fam <= 2) {
+      if (userName && bday && animal <= 2 && fam <= 2) {
         document.getElementById("javascript").removeAttribute("class");
-      } else if (name && bday && animal === 5 && fam === 5) {
+        addressUser();
+      } else if (userName && bday && animal === 5 && fam === 5) {
         document.getElementById("none").removeAttribute("class");
-      } else if (name && bday && animal === 3 || fam === 3) {
+      } else if (userName && bday && animal === 3 || fam === 3) {
         document.getElementById("python").removeAttribute("class");
-      } else if (name && bday && animal === 4 || family === 4) {
+      } else if (userName && bday && animal === 4 || family === 4) {
         document.getElementById("csharp").removeAttribute("class");
-      } else if (name && bday) {
+      } else if (userName && bday) {
         document.getElementById("ruby").removeAttribute("class");
       } else {
         document.getElementById("error-message").removeAttribute("class");

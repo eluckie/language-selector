@@ -2,7 +2,7 @@
 
 #### By E. Luckie
 
-#### A simple quiz where users can fill out the form and be reccommended a programming language to learn.
+#### A simple quiz where users can fill out the form and be recommended a programming language to learn.
 
 ## Technologies Used
 
