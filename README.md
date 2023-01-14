@@ -14,7 +14,9 @@
 
 ## Description
 
-This is a simple webpage with a form acting as a quiz. Visitors are able to read a short introduction to the 4 languages they may be suggested. If a visitor would like to take the quiz and get a recommendation, they are required to enter their name and birthday in the form and answer a short series of 4 silly questions. Their answers are used to determine which coding language they will be recommended to learn. If the visitor fails to enter either a name or a birthday, this will prompt an error message reminding them to fill out the form completely. This page is intended to be a fun quiz rather than a serious recommendation.
+This is a simple webpage with a form acting as a quiz. Visitors are able to read a short introduction to the 4 languages they may be suggested. If a visitor would like to take the quiz and get a recommendation, they are required to enter their name and birthday in the form and answer a short series of 4 silly questions. Their answers are used to determine which coding language they will be recommended to learn. Their recommended language is displayed once they submit the form. Each recommendation includes a photo representing the language and a clickable link to learn more information about the language. If the visitor fails to enter either a name or a birthday, this will prompt an error message reminding them to fill out the form completely.
+
+This page is intended to be a fun quiz rather than a serious recommendation.
 
 | If user selects... | This option for question 5 | Their recommended language is |
 | :----------------- | :------------------------- | :---------------------------: |
@@ -25,7 +27,7 @@ This is a simple webpage with a form acting as a quiz. Visitors are able to read
 
 Otherwise, they will be recommended to learn Ruby.
 
-[Click here](https://eluckie.github.io/language-selector/) to view the live version of this quiz webpage.
+[Click here](https://eluckie.github.io/language-suggestor/) to view the live version of this quiz webpage.
 
 ## Setup/Installation Requirements
 
