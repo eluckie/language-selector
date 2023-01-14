@@ -36,7 +36,7 @@ Otherwise, they will be recommended to learn Ruby.
 * Open language-selector/index.html in your web browser
 
 ## Known Bugs
-* Page does not display user's name to address them with results.
+* No known bugs.
 
 ## License
 
