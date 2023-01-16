@@ -33,7 +33,7 @@ Otherwise, they will be recommended to learn Ruby.
 
 * Clone this repository to your desktop
 * Navigate to the top level of this directory
-* Open language-selector/index.html in your web browser
+* Open language-suggestor/index.html in your web browser
 
 ## Known Bugs
 * No known bugs.
