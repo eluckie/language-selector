@@ -51,6 +51,11 @@ h1.page-title {
   font-weight:600;
 }
 
+#name {
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
+}
+
 #r {
   font-weight:600;
   font-size:large;
