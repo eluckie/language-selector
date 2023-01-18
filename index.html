@@ -20,29 +20,42 @@
   <form id="user-form">
     <p id="error-message" class="hidden">Please fill out the quiz completely!</p>
     <ol>  
-      <li><label for="user-name">Your name:</label>
-      <input id="user-name" type="text"></li><br>
-      <li><label for="birthday">Your birthday:</label>
-      <input id="birthday" type="date"></li><br>
-      <li><label for="color">If you could make the sky be any color, what would it be?</label>
-      <input id="color" type="color"></li>
-      <li><p>Which one of these animals could you win a fight with?</p>
+      <li>
+        <label for="user-name">Your name:</label>
+        <input id="user-name" type="text">
+      </li>
+      <br>
+      <li>
+        <label for="birthday">Your birthday:</label>
+        <input id="birthday" type="date">
+      </li>
+      <br>
+      <li>
+        <label for="color">If you could make the sky be any color, what would it be?</label>
+        <input id="color" type="color">
+      </li>
+      <li>
+        <p>Which one of these animals could you win a fight with?</p>
         <select id="animals">
           <option value="1">Gorilla</option>
           <option value="2">Kangaroo</option>
           <option value="3">15 Snakes</option>
           <option value="4">Grizzly</option>
           <option value="5">Are you joking?</option>
-        </select></li>
-      <li><p>Do you know all your immediate family members' birthdays?</p>
+        </select>
+      </li>
+      <li>
+        <p>Do you know all your immediate family members' birthdays?</p>
         <select id="family">
           <option value="1">Yes, indeed! We even celebrate the pets.</option>
           <option value="2">I know all the humans' birthdays.</option>
           <option value="3">I only know my favorites' birthdays.</option>
           <option value="4">I mean... I know my own birthday, at least.</option>
           <option value="5">Birthdays just don't stay in my head.</option>
-        </select></li>
-      <li><p>One of these is most definitely real. Which one?</p>
+        </select>
+      </li>
+      <li>
+        <p>One of these is most definitely real. Which one?</p>
         <input type="radio" name="mythicalCreature" value="sasquatch" id="bigfoot" checked>
         <label for="bigfoot">Sasquatch</label><br>
         <input type="radio" name="mythicalCreature" value="nessie" id="lochNess">
@@ -52,36 +65,35 @@
         <input type="radio" name="mythicalCreature" value="mermaid" id="mermaids">
         <label for="mermaids">Mermaids</label><br>
         <input type="radio" name="mythicalCreature" value="centaur" id="centaurs">
-        <label for="centaurs">Centaurs</label></li><br><br>
+        <label for="centaurs">Centaurs</label>
+      </li>
+      <br>
+      <br>
     </ol>
     <button type="submit" id="button">Tell me my language!</button>
   </form>
+  <h2 id="name" class="hidden"></h2>
   <div id="ruby" class="hidden">
-    <h2 id="r-name"></h2>
     <h2>you should learn Ruby!</h2>
     <a href="https://developer.mozilla.org/en-US/docs/Glossary/Ruby">Learn more about Ruby</a><br><br>
     <img src="img/ruby.jpg" alt="uncut ruby gems against white background">
   </div>
   <div id="csharp" class="hidden">
-    <h2 id="c-name"></h2>
     <h2>you should learn C#!</h2>
     <a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/">Learn more about C#</a><br><br>
     <img src="img/csharp.jpg" alt="black letter C against tri-color green plain background">
   </div>
   <div id="javascript" class="hidden">
-    <h2 id="j-name"></h2>
     <h2>you should learn JavaScript!</h2>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Learn more about JavaScript</a><br><br>
     <img src="img/javascript.jpg" alt="close-up of white mug with Java logo on table with another mug and plate of baked goods">
   </div>
   <div id="python" class="hidden">
-    <h2 id="p-name"></h2>
     <h2>you should learn Python!</h2>
     <a href="https://developer.mozilla.org/en-US/docs/Glossary/Python">Learn more about Python</a><br><br>
     <img src="img/python.jpg" alt="close-up of green python's face and body">
   </div>
   <div id="none" class="hidden">
-    <h2 id="n-name"></h2>
     <h2>do you even want to be a programmer?</h2>
     <p>It's alright if you don't. It's truly alright. There's so many other jobs that need doing too.</p>
     <a href="https://www.glassdoor.com/Job/index.htm?utm_source=google&utm_medium=cpc&utm_campaign=US_B2C_Consumer_Brand_2022">Check out some of those other jobs</a><br><br>

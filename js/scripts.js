@@ -7,21 +7,11 @@ function hideResultsAndError() {
   document.getElementById("error-message").setAttribute("class", "hidden");
 }
 
-function addressUser() {
-  let userName = document.getElementById("user-name").value;
-  document.getElementById("r-name").innerText = userName + ",";
-  document.getElementById("c-name").innerText = userName + ",";
-  document.getElementById("j-name").innerText = userName + ",";
-  document.getElementById("p-name").innerText = userName + ",";
-  document.getElementById("n-name").innerText = userName + ",";
-}
-
 window.addEventListener("load", function() {
   let form = document.getElementById("user-form");
   form.onsubmit = function(event) {
     event.preventDefault();
     hideResultsAndError();
-    addressUser();
 
     const animal = parseInt(document.getElementById("animals").value);
     const fam = parseInt(document.getElementById("family").value);
@@ -34,12 +24,17 @@ window.addEventListener("load", function() {
         document.getElementById("none").removeAttribute("class");
       } else if (userName && bday && animal === 3 || fam === 3) {
         document.getElementById("python").removeAttribute("class");
-      } else if (userName && bday && animal === 4 || family === 4) {
+      } else if (userName && bday && animal === 4 || fam === 4) {
         document.getElementById("csharp").removeAttribute("class");
       } else if (userName && bday) {
         document.getElementById("ruby").removeAttribute("class");
       } else {
         document.getElementById("error-message").removeAttribute("class");
       }
+      
+    let nameOutput = document.getElementById("name");
+    nameOutput.innerText = userName + ","
+    nameOutput.removeAttribute("class");
+
     };
   })
