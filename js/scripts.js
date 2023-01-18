@@ -34,7 +34,7 @@ window.addEventListener("load", function() {
         document.getElementById("none").removeAttribute("class");
       } else if (userName && bday && animal === 3 || fam === 3) {
         document.getElementById("python").removeAttribute("class");
-      } else if (userName && bday && animal === 4 || family === 4) {
+      } else if (userName && bday && animal === 4 || fam === 4) {
         document.getElementById("csharp").removeAttribute("class");
       } else if (userName && bday) {
         document.getElementById("ruby").removeAttribute("class");
